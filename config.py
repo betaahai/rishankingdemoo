@@ -27,8 +27,9 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 # 🔐 Get your secret key from Scy — xD: @ScyxD | Get Free Key : @KeyMakerRoBot
 # 📦 Make sure to add all required variables in your .env file.
+
 BASE_API_URL = getenv("BASE_API_URL", "https://xyz.spotifytech.shop")
-BASE_API_KEY = getenv("BASE_API_KEY")
+BASE_API_KEY = getenv("BASE_API_KEY", "6d1cdea8a23ef2721338fce3a7c3a6c2")
 
 # promotion website like : Api Docs etc etc..., Please Don't Change This
 WEBSITE = getenv("WEBSITE", "https://xyz.spotifytech.shop")
@@ -39,7 +40,7 @@ DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=3
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAloneTech/ScyMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rishubbu/rishankingdemoo")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
