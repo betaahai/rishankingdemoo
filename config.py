@@ -40,7 +40,7 @@ DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=3
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rishubbu/rishankingdemoo")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/betaahai/rishankingdemoo")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
