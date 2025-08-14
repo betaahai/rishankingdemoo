@@ -28,11 +28,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 # 🔐 Get your secret key from Scy — xD: @ScyxD | Get Free Key : @KeyMakerRoBot
 # 📦 Make sure to add all required variables in your .env file.
 
-BASE_API_URL = getenv("BASE_API_URL", "https://xyz.spotifytech.shop")
-BASE_API_KEY = getenv("BASE_API_KEY", "6d1cdea8a23ef2721338fce3a7c3a6c2")
+BASE_API_URL = getenv("BASE_API_URL", "http://46.38.237.240:8000")
+BASE_API_KEY = getenv("BASE_API_KEY", "strangerapi35b8e7392")
 
 # promotion website like : Api Docs etc etc..., Please Don't Change This
-WEBSITE = getenv("WEBSITE", "https://xyz.spotifytech.shop")
+WEBSITE = getenv("WEBSITE", "http://46.38.237.240:8000")
 COOKIES_URL = getenv("COOKIES_URL")
 
 DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=300)
